@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.sidebar {
+    width: 250px;
+    margin-bottom: 40px;
+    height: 100%;
+    float: left;
+}
+
+.sidebar .profile-img {
+    display: flex;
+    justify-content: center;
+} 
+
+.sidebar img {
+    padding: 4px;
+    border: 6px solid rgb(177, 177, 177);
+    /* border-radius: 20%; */
+    margin-bottom: 20px;
+
+}
+
+.sidebar .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.sidebar .fab {
+    font-size: 25px;
+    color: black;
+}
+
+.sidebar .fab:hover {
+    font-size: 29px;
+}
+
+.sidebar .fa-facebook:hover {
+    color: #0d8af0;
+}
+
+.sidebar .fa-twitter:hover {
+    color: #1a8cd8;
+}
+
+.sidebar .fa-youtube:hover {
+    color: red;
+}
+
+.sidebar .table-content {
+    padding: 4px 5px 4px 5px;
+    background-color: rgb(236, 230, 230);
+    border-radius: 10px;
+}
+
+.sidebar .table-content>a{
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px;
+}
+
+.sidebar .table-content>a:hover {
+    font-weight: bolder;
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-left: 300px;
+}
