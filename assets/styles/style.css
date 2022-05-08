@@ -22,7 +22,7 @@ body {
     justify-content: center;
 } 
 
-.sidebar img {
+.sidebar .profile-img>img {
     padding: 4px;
     border: 6px solid rgb(177, 177, 177);
     /* border-radius: 20%; */
@@ -80,29 +80,51 @@ body {
     font-weight: bold;
 }
 
+.academic-ids {
+    margin-top: 50px;
+}
+
+.accounts {
+    margin: 15px 0px;
+}
+
+.block-title {
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.scholar-logo>img {
+    height: 40px;
+    width: 40px;
+}
+
+
+
 .main-content {
     margin-left: 300px;
+    margin-right: 200px;
     font-family: 'Fira Sans', sans-serif;
 }
 
-.main-content .details>.name {
+.main-content .contact-details>.name {
     font-size: 40px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
 }
 
-.main-content .details>.designation {
+.main-content .contact-details>.designation {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 2px;
 }
 
-.details>.telephone-num {
+.contact-details>.telephone-num {
     margin: 18px 0px;
 }
 
-.details>.biosketch {
+.contact-details>.biosketch {
     color: red;
     font-size: 20px;
     font-weight: bold;
@@ -111,8 +133,8 @@ body {
 .box-details>.box {
     display: inline-flex;
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -149,6 +171,7 @@ body {
     color: white;
     position: absolute;
     left: 50%;
+    font-size: 12px;
     transform: translate(-50%, 0);
 }
 
@@ -159,13 +182,13 @@ body {
 }
 
 .box .title {
-    top: 50%;
+    top: 55%;
 }
 
 .box .subtitle {
-    top:65%;
+    top:70%;
 }
 
 .box .subtitle2 {
-    top: 77%;
+    top: 80%;
 }
