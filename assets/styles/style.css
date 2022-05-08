@@ -82,4 +82,90 @@ body {
 
 .main-content {
     margin-left: 300px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-content .details>.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+.main-content .details>.designation {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.details>.telephone-num {
+    margin: 18px 0px;
+}
+
+.details>.biosketch {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-details>.box {
+    display: inline-flex;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#box1 {
+    background-color: #00afd1;
+}
+
+#box2 {
+    background-color: #94c523;
+}
+
+#box3 {
+    background-color: #f36510;
+}
+
+#box4 {
+    background-color: #6a3da3;
+}
+
+#box5 {
+    background-color: #6a3da3;
+}
+
+#box6 {
+    background-color: #0bb586
+}
+
+#box7 {
+    background-color: #f8ba01;
+}
+
+.box div {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.box .count {
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box .title {
+    top: 50%;
+}
+
+.box .subtitle {
+    top:65%;
+}
+
+.box .subtitle2 {
+    top: 77%;
 }
