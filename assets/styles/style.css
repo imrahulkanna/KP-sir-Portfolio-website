@@ -84,13 +84,37 @@ body {
 }
 
 .accounts {
-  margin: 15px 0px;
+    margin: 5px 0px;
+    display: inline-flex;  
+    justify-content: space-around;
 }
 
 .block-title {
+    margin-bottom: 25px;
   font-size: 25px;
   font-weight: bold;
 }
+
+.scholar-logo,.scholar-info {
+    margin-left: 20px;
+}
+
+.scholar-logo {
+    margin-top: 5px;
+}
+
+.scholar-site, .scholar-id {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.scholar-site {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 
 .scholar-logo > img {
   height: 40px;
