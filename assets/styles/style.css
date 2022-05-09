@@ -84,37 +84,38 @@ body {
 }
 
 .accounts {
-    margin: 5px 0px;
-    display: inline-flex;  
-    justify-content: space-around;
+  margin: 5px 0px;
+  display: inline-flex;
+  justify-content: space-around;
 }
 
 .block-title {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
   font-size: 25px;
   font-weight: bold;
 }
 
-.scholar-logo,.scholar-info {
-    margin-left: 20px;
+.scholar-logo,
+.scholar-info {
+  margin-left: 20px;
 }
 
 .scholar-logo {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
-.scholar-site, .scholar-id {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
+.scholar-site,
+.scholar-id {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
 }
 
 .scholar-site {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
-
 
 .scholar-logo > img {
   height: 40px;
@@ -413,14 +414,50 @@ li {
 }
 
 .wrapper-title {
-    margin-top: 45px;
-    font-weight: bold;
-    padding-bottom: 15px;
+  margin-top: 45px;
+  font-weight: bold;
+  padding-bottom: 15px;
 }
 
 .wrapper-body {
-    background-color: #f9f9f9;
-    box-shadow: 2.5px 2.5px 2px 1px rgba(44, 43, 43, 0.2);
-    padding: 15px 5px;
-    padding-left: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 2.5px 2.5px 2px 1px rgba(44, 43, 43, 0.2);
+  padding: 15px 5px;
+  padding-left: 30px;
+}
+
+.wrapper-body .projrow {
+  border-left: 5px solid #28a745;
+  padding-left: 10px;
+}
+
+.projrow .content {
+  font-size: 12px;
+}
+.projrow .title {
+  margin-bottom: -9px;
+  font-weight: bold;
+}
+
+.awardsrow .title {
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.awardsrow {
+  border-left: 5px solid #f8ba01;
+  padding-left: 10px;
+}
+
+.membrow .content {
+  margin-top: -14px;
+}
+.membrow .title {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.membrow {
+  border-left: 5px solid #6a3da3;
+  padding-left: 10px;
 }
