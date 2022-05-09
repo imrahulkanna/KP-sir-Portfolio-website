@@ -374,3 +374,22 @@ li {
 .experienceBody li p {
   margin-top: -2.5px;
 }
+
+.expertiseInfo-title {
+  margin-top: 45px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.expertiseInfo-body {
+  background-color: #f9f9f9;
+  box-shadow: 2.5px 2.5px 2px 1px rgba(44, 43, 43, 0.2);
+  padding: 15px 5px;
+  padding-left: 30px;
+}
+
+.projGuide-title {
+  margin-top: 45px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
