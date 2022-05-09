@@ -1,194 +1,223 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 body {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 60px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 60px;
 }
 
 .sidebar {
-    width: 250px;
-    margin-bottom: 40px;
-    height: 100%;
-    float: left;
+  width: 250px;
+  margin-bottom: 40px;
+  height: 100%;
+  float: left;
 }
 
 .sidebar .profile-img {
-    display: flex;
-    justify-content: center;
-} 
+  display: flex;
+  justify-content: center;
+}
 
-.sidebar .profile-img>img {
-    padding: 4px;
-    border: 6px solid rgb(177, 177, 177);
-    /* border-radius: 20%; */
-    margin-bottom: 20px;
-
+.sidebar .profile-img > img {
+  padding: 4px;
+  border: 6px solid rgb(177, 177, 177);
+  /* border-radius: 20%; */
+  margin-bottom: 20px;
 }
 
 .sidebar .social-media {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .sidebar .fab {
-    font-size: 25px;
-    color: black;
+  font-size: 25px;
+  color: black;
 }
 
 .sidebar .fab:hover {
-    font-size: 29px;
+  font-size: 29px;
 }
 
 .sidebar .fa-facebook:hover {
-    color: #0d8af0;
+  color: #0d8af0;
 }
 
 .sidebar .fa-twitter:hover {
-    color: #1a8cd8;
+  color: #1a8cd8;
 }
 
 .sidebar .fa-youtube:hover {
-    color: red;
+  color: red;
 }
 
 .sidebar .table-content {
-    padding: 4px 5px 4px 5px;
-    background-color: rgb(236, 230, 230);
-    border-radius: 10px;
+  padding: 4px 5px 4px 5px;
+  background-color: rgb(236, 230, 230);
+  border-radius: 10px;
 }
 
-.sidebar .table-content>a{
-    font-weight: bold;
-    font-size: 17px;
-    display: block;
-    text-decoration: none;
-    color: black;
-    margin: 10px 0px;
+.sidebar .table-content > a {
+  font-weight: bold;
+  font-size: 17px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 10px 0px;
 }
 
-.sidebar .table-content>a:hover {
-    font-weight: bolder;
-    font-size: 19px;
-    color: red;
-    font-weight: bold;
+.sidebar .table-content > a:hover {
+  font-weight: bolder;
+  font-size: 19px;
+  color: red;
+  font-weight: bold;
 }
 
 .academic-ids {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .accounts {
-    margin: 15px 0px;
+  margin: 15px 0px;
 }
 
 .block-title {
-
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.scholar-logo>img {
-    height: 40px;
-    width: 40px;
+.scholar-logo > img {
+  height: 40px;
+  width: 40px;
 }
-
-
 
 .main-content {
-    margin-left: 300px;
-    margin-right: 200px;
-    font-family: 'Fira Sans', sans-serif;
+  margin-left: 300px;
+  margin-right: 200px;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.main-content .contact-details>.name {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 15px;
+.main-content .contact-details > .name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
 }
 
-.main-content .contact-details>.designation {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 2px;
+.main-content .contact-details > .designation {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
 }
 
-.contact-details>.telephone-num {
-    margin: 18px 0px;
+.contact-details > .telephone-num {
+  margin: 18px 0px;
 }
 
-.contact-details>.biosketch {
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
+.contact-details > .biosketch {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.box-details>.box {
-    display: inline-flex;
-    position: relative;
-    height: 120px;
-    width: 120px;
-    margin-left: 50px;
-    margin-top: 50px;
+.box-details > .box {
+  display: inline-flex;
+  position: relative;
+  height: 120px;
+  width: 120px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 30px;
 }
 
 #box1 {
-    background-color: #00afd1;
+  background-color: #00afd1;
 }
 
 #box2 {
-    background-color: #94c523;
+  background-color: #94c523;
 }
 
 #box3 {
-    background-color: #f36510;
+  background-color: #f36510;
 }
 
 #box4 {
-    background-color: #6a3da3;
+  background-color: #6a3da3;
 }
 
 #box5 {
-    background-color: #6a3da3;
+  background-color: #6a3da3;
 }
 
 #box6 {
-    background-color: #0bb586
+  background-color: #0bb586;
 }
 
 #box7 {
-    background-color: #f8ba01;
+  background-color: #f8ba01;
 }
 
 .box div {
-    color: white;
-    position: absolute;
-    left: 50%;
-    font-size: 12px;
-    transform: translate(-50%, 0);
+  color: white;
+  position: absolute;
+  left: 50%;
+  font-size: 12px;
+  transform: translate(-50%, 0);
 }
 
 .box .count {
-    top: 25%;
-    font-size: 30px;
-    font-weight: bold;
+  top: 25%;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .box .title {
-    top: 55%;
+  top: 55%;
 }
 
 .box .subtitle {
-    top:70%;
+  top: 70%;
 }
 
 .box .subtitle2 {
-    top: 80%;
+  top: 80%;
+}
+
+.personalInfo {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 2.5px 2.5px 2px 1px rgba(44, 43, 43, 0.2);
+}
+.personalInfo-title {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.personalInfo p {
+  line-height: 25px;
+  font-size: 14px;
+}
+.personalInfo h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.personalInfo .col1 {
+  padding-left: 10px;
+  display: inline-block;
+}
+.personalInfo .col2 {
+  margin-left: 90px;
+  display: inline-block;
+}
+
+.educationQual-title {
+  margin-top: 30px;
+  font-weight: bold;
 }
