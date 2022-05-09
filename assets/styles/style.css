@@ -123,7 +123,7 @@ body {
 }
 
 .main-content {
-  margin-left: 300px;
+  margin-left: 350px;
   margin-right: 200px;
   font-family: "Fira Sans", sans-serif;
 }
@@ -222,7 +222,8 @@ body {
 }
 .personalInfo-title {
   margin-top: 30px;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 24px;
 }
 .personalInfo p {
   line-height: 25px;
@@ -246,6 +247,7 @@ body {
   margin-top: 30px;
   font-weight: bold;
   padding-bottom: 10px;
+    font-size: 24px;
 }
 
 .educationQual-wrapper ul,
@@ -299,6 +301,7 @@ li {
   font-weight: bold;
   padding-bottom: 10px;
   margin-bottom: 15px;
+    font-size: 24px;
 }
 
 .card {
@@ -404,6 +407,7 @@ li {
   margin-top: 45px;
   font-weight: bold;
   padding-bottom: 15px;
+font-size: 24px;
 }
 
 .expertiseInfo-body {
@@ -417,6 +421,7 @@ li {
   margin-top: 45px;
   font-weight: bold;
   padding-bottom: 15px;
+ font-size: 24px;
 }
 
 .wrapper-body {
@@ -431,10 +436,7 @@ li {
   padding-left: 10px;
 }
 
-.projrow .content {
-  font-size: 12px;
-}
-.projrow .title {
+.projrow .row-title {
   margin-bottom: -9px;
   font-weight: bold;
 }
@@ -460,4 +462,23 @@ li {
 .membrow {
   border-left: 5px solid #6a3da3;
   padding-left: 10px;
+}
+
+.wrapper-body .row {
+    margin-bottom: 40px;
+    padding-left: 10px;
+    margin-right: 30px;
+}
+
+.row-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cws {
+    border-left: 5px solid #94c523;
+}
+
+.add-info {
+    border-left: 5px solid #7bc8f1;
 }
