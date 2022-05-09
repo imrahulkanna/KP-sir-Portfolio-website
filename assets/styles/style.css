@@ -223,13 +223,13 @@ body {
   padding-bottom: 10px;
 }
 
-ul,
+.educationQual-wrapper ul,
 li {
   list-style: none;
   padding: 0;
 }
 
-li {
+.educationQual-wrapper li {
   padding-bottom: 1.5rem;
   border-left: 2px solid #000000;
   position: relative;
@@ -237,11 +237,11 @@ li {
   margin-left: 10px;
   margin-top: -16px;
 }
-li:last-child {
+.educationQual-wrapper li:last-child {
   border: 0px;
   padding-bottom: 0;
 }
-li:before {
+.educationQual-wrapper li:before {
   content: "";
   width: 15px;
   height: 15px;
@@ -255,10 +255,10 @@ li:before {
   top: 0px;
 }
 
-li p {
+.educationQual-wrapper li p {
   margin-top: -2.5px;
 }
-li b {
+.educationQual-wrapper li b {
   font-weight: bolder;
 }
 .educationQual-wrapper {
@@ -273,6 +273,7 @@ li b {
   margin-top: 30px;
   font-weight: bold;
   padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .card {
@@ -283,12 +284,27 @@ li b {
   /* margin: 0 auto; */
   display: inline-block;
   margin-bottom: 25px;
+  color: white !important;
+  font-weight: black !important;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-size: 19px;
+  line-height: 20px;
+  /* or 65% */
+
+  text-transform: uppercase;
 }
+
 .card.one,
 .card.three {
   margin-right: 20px;
 }
-
+.cardTitle {
+  font-size: 19px;
+}
+.cardText {
+  font-size: 23px;
+}
 .card.one {
   background-color: #17a2b8;
 }
@@ -302,4 +318,59 @@ li b {
 
 .card.four {
   background-color: #6a3da3;
+}
+
+.experienceBody .post {
+  margin-bottom: 15px;
+  color: #002d68;
+}
+.experienceBody .time {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.experienceBody {
+  /* margin-left: -10px; */
+  margin-top: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 2.5px 2.5px 2px 1px rgba(44, 43, 43, 0.2);
+  padding: 15px 5px;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.experienceBody ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.experienceBody li {
+  padding-bottom: 1.5rem;
+  border-left: 2px solid #000000;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-top: -16px;
+}
+.experienceBody li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+}
+.experienceBody li:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: rgb(255, 0, 0);
+  border: 1px solid #ff0000;
+  /* box-shadow: 3px 3px 0px #ff0000; */
+  /* box-shadow: 3px 3px 0px #ff0000; */
+  border-radius: 50%;
+  position: absolute;
+  left: -9px;
+  top: 0px;
+}
+
+.experienceBody li p {
+  margin-top: -2.5px;
 }
