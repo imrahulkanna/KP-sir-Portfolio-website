@@ -114,28 +114,32 @@
         </div>
         <!-- Details of the boxes -->
         <div class="box-details">
-            <div class="box" id="box1">
+            <div class="box" id="box1" style="cursor: pointer;"
+                onclick="window.location.href='./pdfs/Research papers published.html';">
                 <div class="count">36</div>
                 <div class="title">PUBLICATIONS</div>
-                <div class="subtitle">International</div>
+                <div class="subtitle">International Journals</div>
             </div>
             <div class="box" id="box2">
-                <div class="count">37</div>
-                <div class="title">SEMINARS</div>
-                <div class="subtitle">International:&nbsp;2</div>
-                <div class="subtitle2">National:&nbsp;35</div>
-
-            </div>
-            <div class="box" id="box3">
                 <div class="count">14</div>
                 <div class="title">CONFERENCES</div>
                 <div class="subtitle">International:&nbsp;8</div>
                 <div class="subtitle2">National:&nbsp;6</div>
+
+
             </div>
-            <div class="box" id="box4">
-                <div class="count">2</div>
+            <div class="box" id="box3" style="cursor: pointer;"
+                onclick="window.location.href='./pdfs/Textbooks Published.html';">
+                <div class="count">3</div>
                 <div class="title">TEXTBOOKS</div>
                 <div class="subtitle">International</div>
+            </div>
+
+            <div class="box" id="box4" style="cursor: pointer;"
+                onclick="window.location.href='./pdfs/Book chapters Published.html';">
+                <div class="count">3</div>
+                <div class="title">BOOK CHAPTERS</div>
+                <div class="subtitle"></div>
             </div>
             <br>
             <div class="box" id="box5">
@@ -143,13 +147,22 @@
                 <div class="title">MONOGRAPHS</div>
                 <div class="subtitle">International</div>
             </div>
-            <div class="box" id="box6">
-                <div class="count">5</div>
-                <div class="title">WORKSHOPS</div>
-            </div>
-            <div class="box" id="box7">
+            <div class="box" id="box6" style="cursor: pointer;" onclick="window.location.href='./pdfs/Patents.html';">
+
                 <div class="count">4</div>
                 <div class="title">PATENTS</div>
+            </div>
+
+            <div class="box" id="box7">
+                <div class="count">37</div>
+                <div class="title">SEMINARS</div>
+                <div class="subtitle">International:&nbsp;2</div>
+                <div class="subtitle2">National:&nbsp;35</div>
+            </div>
+
+            <div class="box" id="box8">
+                <div class="count">5</div>
+                <div class="title">WORKSHOPS</div>
             </div>
         </div>
         <!-- end of box-details -->
@@ -158,14 +171,14 @@
         <div class="wrapper" id="personalInfo">
             <div class="personalInfo-title">PERSONAL INFORMATION</div>
             <div class="personalInfo">
-            
+
                 <div class="col1">
                     <h4>Dr. A V Krishna Prasad</h4>
                     <p>Associate Professor <br>
                         Computer Science and Engineering <br>
                         In Teaching field from 1999</p>
                 </div>
-            
+
                 <div class="col2">
                     <p>Address:</p>
                     <p>10­3­85/1/2 Manipuri Colony <br>
@@ -185,27 +198,27 @@
                         <b>Ph.D. (CS) </b>
                         <p>Sri Venkateswara University, Ph. D in Data Mining</p>
                     </li>
-            
+
                     <li>
                         <b>M.Tech. (CSE)</b>
                         <p>Anurag (CVSR) Engineering College affiliated to JNTUH</p>
                     </li>
-            
+
                     <li>
                         <b>MCA (CSE)</b>
                         <p>VRIPS, Nellore affiliated to Sri Venkateswara University</p>
                     </li>
-            
+
                     <li>
                         <b>B.Sc. (CS )</b>
                         <p>SKSC Degree College, Proddatur affiliated to Sri Venkateswara University, Tirupati</p>
                     </li>
-            
+
                     <li>
                         <b>Intermediate</b>
                         <p>Swami Vivekananda Junior College, Proddatur</p>
                     </li>
-            
+
                     <li>
                         <b>SSC</b>
                         <p>Sri Ramana Maharishi high School, Proddatur, SSC Board</p>
@@ -236,7 +249,7 @@
                     <div class="cardTitle">INDUSTRY EXPERIENCE</div>
                     <div class="cardText">6 MONTHS</div>
                 </div>
-            
+
                 <div class="experienceBody">
                     <ul>
                         <li>
@@ -245,7 +258,7 @@
                                     style="font-size:18px;"></i> M.V.S.R
                                 Engineering College, OU</div>
                         </li>
-            
+
                         <li>
                             <div class="time">Nov’ 2015–Oct 2016</div>
                             <div class="post">
@@ -253,7 +266,7 @@
                                 University(University Panel)
                             </div>
                         </li>
-            
+
                         <li>
                             <div class="time">Dec’ 2012–Oct 2015</div>
                             <div class="post">Associate Professor CSE Department, <i class="fas fa-university"
@@ -268,7 +281,8 @@
                         <li>
                             <div class="time">Jun’ 2001–Jan 2004</div>
                             <div class="post">
-                                Assistant Professor MCA Department, <i class="fas fa-university" style="font-size:18px;"></i> MIPGS,
+                                Assistant Professor MCA Department, <i class="fas fa-university"
+                                    style="font-size:18px;"></i> MIPGS,
                                 OU
                             </div>
                         </li>
@@ -397,16 +411,19 @@
                     <span>2 Courses. 6 Months Skill Development Program</span>
                 </div>
                 <div class="cws row">
-                    <span class="row-title">Resource Person for UGC Sponsored refresher courses</span> 
+                    <span class="row-title">Resource Person for UGC Sponsored refresher courses</span>
                     at JNTUH Academic Staff college and AICTE sponsored FDPs at several colleges.
                 </div>
                 <div class="cws row">
-                    <span class="row-title">Resource Person for several Webinars on Recent Research Trends on Data Science, Social Media Analytics, Big Data
-                    Analytics, Analytics using R</span> at IETE, CSI, MVSR, Anurag University, JNTUH, JNTUA, JNTUK, Rayalaseema University, CBIT,
+                    <span class="row-title">Resource Person for several Webinars on Recent Research Trends on Data
+                        Science, Social Media Analytics, Big Data
+                        Analytics, Analytics using R</span> at IETE, CSI, MVSR, Anurag University, JNTUH, JNTUA, JNTUK,
+                    Rayalaseema University, CBIT,
                     Vasavi etc.
                 </div>
                 <div class="cws row">
-                    <span class="row-title">Keynote Speaker for National and International Conferences</span> Organized at Dravidian University, Vasavi Engineering
+                    <span class="row-title">Keynote Speaker for National and International Conferences</span> Organized
+                    at Dravidian University, Vasavi Engineering
                     College, Siddhartha Engineering Collages, etc.
                 </div>
                 <div class="cws row">
@@ -414,8 +431,10 @@
                     in association with EICT, NIT, WARANGAL, Telangana, India
                 </div>
                 <div class="cws row" style="margin-bottom: 0px;">
-                    <span class="row-title">Conducted several workshops on “Statistical Analysis using WEKA and R Tool”</span>, MVSR, Methodist College of Engineering and
-                    Technology, CSI, IETE, Rayala Seema university, Narayana Engineering College, St.Martins Engineering College etc.
+                    <span class="row-title">Conducted several workshops on “Statistical Analysis using WEKA and R
+                        Tool”</span>, MVSR, Methodist College of Engineering and
+                    Technology, CSI, IETE, Rayala Seema university, Narayana Engineering College, St.Martins Engineering
+                    College etc.
                 </div>
             </div>
         </div>
@@ -427,7 +446,8 @@
             <div class="wrapper-body">
                 <div class="add-info row">
                     Receiving Royalty every year for the Book<br>
-                    <span class="row-title">“Exploring the convergence of Big Data and Internet of things”</span> published by
+                    <span class="row-title">“Exploring the convergence of Big Data and Internet of things”</span>
+                    published by
                     IGI Global Publications.
                 </div>
                 <div class="add-info row">
@@ -437,29 +457,36 @@
                     <span class="row-title">Recruitment Panel Member</span> for Sphoorthy, CVSR, MVSR etc.
                 </div>
                 <div class="add-info row">
-                    <span class="row-title">Question Paper Setter</span> for JNTUA, Reva University, Anurag University, CBIT, Vasavi, CMR, NMREC etc.
+                    <span class="row-title">Question Paper Setter</span> for JNTUA, Reva University, Anurag University,
+                    CBIT, Vasavi, CMR, NMREC etc.
                 </div>
                 <div class="add-info row">
-                    <span class="row-title">PhD Thesis Evaluator, Panel Member, M.Tech (Dissertations) Evaluator</span> for BITS, JNTUH affiliated Colleges & International
+                    <span class="row-title">PhD Thesis Evaluator, Panel Member, M.Tech (Dissertations) Evaluator</span>
+                    for BITS, JNTUH affiliated Colleges & International
                     Universities.
                 </div>
                 <div class="add-info row">
-                    Served as <span class="row-title">CSI, Hyderabad Chapter as Management Committee Member, Secretary (2018-20), Chairman-Nominations Committee
-                    (2020-21)</span>.
+                    Served as <span class="row-title">CSI, Hyderabad Chapter as Management Committee Member, Secretary
+                        (2018-20), Chairman-Nominations Committee
+                        (2020-21)</span>.
                 </div>
                 <div class="add-info row">
-                    Chapter <span class="row-title">Advisory Member for SIG-IOT</span> run by <span class="row-title">ISOC (Internet Society)</span>.
+                    Chapter <span class="row-title">Advisory Member for SIG-IOT</span> run by <span
+                        class="row-title">ISOC (Internet Society)</span>.
 
-                </div>  
-                <div class="add-info row">
-                    Served as <span class="row-title">Coding Trainer in C & C++, Organized National level Coding Competitions, Hackathons</span> etc.
                 </div>
                 <div class="add-info row">
-                    Proposed MVSR <span class="row-title">DATA SCIENCE RESEARCH FORUM</span> 
+                    Served as <span class="row-title">Coding Trainer in C & C++, Organized National level Coding
+                        Competitions, Hackathons</span> etc.
+                </div>
+                <div class="add-info row">
+                    Proposed MVSR <span class="row-title">DATA SCIENCE RESEARCH FORUM</span>
                 </div>
             </div>
         </div>
         <!-- End Of ADDITIONAL INFORMATION -->
+
+
     </div>
 </body>
 
