@@ -11,10 +11,12 @@ body {
 }
 
 .sidebar {
+    /* border: 1px solid green; */
   width: 250px;
   margin-bottom: 40px;
   height: 100%;
-  float: left;
+  /* float: left; */
+  position: fixed;
 }
 
 .sidebar .profile-img {
@@ -33,7 +35,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .sidebar .fab {
@@ -65,7 +67,7 @@ body {
 
 .sidebar .table-content > a {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
   display: block;
   text-decoration: none;
   color: black;
@@ -74,57 +76,21 @@ body {
 
 .sidebar .table-content > a:hover {
   font-weight: bolder;
-  font-size: 19px;
+  font-size: 17px;
   color: red;
   font-weight: bold;
 }
 
-.academic-ids {
-  margin-top: 50px;
-}
-
-.accounts {
-  margin: 5px 0px;
-  display: inline-flex;
-  justify-content: space-around;
-}
-
-.block-title {
-  margin-bottom: 25px;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.scholar-logo,
-.scholar-info {
-  margin-left: 20px;
-}
-
-.scholar-logo {
-  margin-top: 5px;
-}
-
-.scholar-site,
-.scholar-id {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-}
-
-.scholar-site {
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.scholar-logo > img {
-  height: 40px;
-  width: 40px;
+.layout-container {
+    margin-left: 350px;
+    display: grid;
+        grid-template-columns: auto 22%;
+        /*grid-template-columns: auto 300px;*/
+        grid-column-gap: 0px;
 }
 
 .main-content {
-  margin-left: 350px;
-  margin-right: 200px;
+  /* border: 1px solid blue; */
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -151,8 +117,14 @@ body {
   font-weight: bold;
 }
 
+.box-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 20px;
+}
+
 .box-details > .box {
-  display: inline-flex;
   position: relative;
   height: 120px;
   width: 120px;
@@ -485,4 +457,47 @@ font-size: 24px;
 
 .add-info {
     border-left: 5px solid #7bc8f1;
+}
+
+.academic-ids {
+    margin-top: 50px;
+}
+
+.accounts {
+    margin: 5px 0px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.block-title {
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.scholar-logo,
+.scholar-info {
+    margin-left: 20px;
+}
+
+.scholar-logo {
+    margin-top: 5px;
+}
+
+.scholar-site,
+.scholar-id {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.scholar-site {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.scholar-logo>img {
+    height: 30px;
+    width: 30px;
 }
