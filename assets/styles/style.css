@@ -189,6 +189,14 @@ body {
   background-color: #15a382;
 }
 
+#box9 {
+    background-color: #fa0e0eeb;
+}
+
+#box10 {
+    background-color: #f111aed2;
+}
+
 .box div {
   color: white;
   position: absolute;
