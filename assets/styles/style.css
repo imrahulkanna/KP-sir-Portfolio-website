@@ -397,8 +397,20 @@ li {
 
 .card.three {
   background-color: #29972f;
-}
 
+}
+.card.three .subflex{
+  display: flex;
+  flex-direction: row;
+
+}
+.subflex .small{
+  font-size: 11px !important;
+  width:33%;
+  border-right: 1px solid white !important;
+  padding-left: 4.5px;
+
+}
 .card.four {
   background-color: #6a3da3;
 }
