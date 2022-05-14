@@ -38,8 +38,11 @@ body {
   width: 250px;
   margin-bottom: 40px;
   height: 100%;
-  /* float: left; */
-  position: fixed;
+  float: left;
+  /* position: fixed; */
+  overflow-y: auto;
+
+  
 }
 
 .sidebar .profile-img {
@@ -86,6 +89,7 @@ body {
   padding: 4px 5px 4px 5px;
   background-color: rgb(236, 230, 230);
   border-radius: 10px;
+
 }
 
 .sidebar .table-content > a {
@@ -587,4 +591,28 @@ font-size: 24px;
 .scholar-logo>img {
     height: 30px;
     width: 30px;
+}
+
+/* CSS for gallery */
+.w-100{
+  border: 11px solid #000000b9;
+margin-left:17%;
+box-shadow: 5px 5px 5px 3px rgba(44, 43, 43, 0.2);
+max-width: 65%;
+margin-bottom: 20px;
+
+}
+
+.gallery img {
+  border: 5px solid #000000;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px!important;
+  width: 50px!important;
+  outline: rgba(44, 43, 43, 0.2);
+  background-color: rgba(44, 43, 43, 0.2)!important;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgba(44, 43, 43, 0.2);
 }
