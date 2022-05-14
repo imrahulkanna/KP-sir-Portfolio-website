@@ -74,8 +74,8 @@ body {
   color: #0d8af0;
 }
 
-.sidebar .fa-twitter:hover {
-  color: #1a8cd8;
+.sidebar .fa-blogger:hover {
+  color: #ee5f00;
 }
 
 .sidebar .fa-youtube:hover {
@@ -86,7 +86,6 @@ body {
   padding: 4px 5px 4px 5px;
   background-color: rgb(236, 230, 230);
   border-radius: 10px;
-  
 }
 
 .sidebar .table-content > a {
@@ -501,6 +500,15 @@ font-size: 24px;
 .awardsrow {
   border-left: 5px solid #f8ba01;
   padding-left: 10px;
+}
+
+.editrow .row-title,.reviewrow .row-title {
+    font-size: 20px;
+}
+
+.editrow .title, .reviewrow .title {
+    border-left: 5px solid #32c749;
+    padding-left: 10px;
 }
 
 .membrow .content {
